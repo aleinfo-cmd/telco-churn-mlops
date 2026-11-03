@@ -49,3 +49,5 @@ docker run --rm -p 8000:8000 ghcr.io/tu_usuario/telco-churn-cicd:latest
 ```
 
 El pipeline realiza CI y publicación como entrega continua; no despliega automáticamente a producción. Para uso real se requiere dataset real, evaluación, seguridad, monitoreo y validación del modelo.
+
+Este proyecto utiliza Regresión Logística, Random Forest y SVM.
