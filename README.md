@@ -51,3 +51,6 @@ docker run --rm -p 8000:8000 ghcr.io/tu_usuario/telco-churn-cicd:latest
 El pipeline realiza CI y publicación como entrega continua; no despliega automáticamente a producción. Para uso real se requiere dataset real, evaluación, seguridad, monitoreo y validación del modelo.
 
 Este proyecto utiliza Regresión Logística, Random Forest y SVM.
+
+# Accuracy, Precision, Recall y F1-score
+Precision (Precisión), el Recall (Exhaustividad o Sensibilidad) y el F1-score son métricas fundamentales para evaluar modelos de Machine Learning en problemas de clasificación
